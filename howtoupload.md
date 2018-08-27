@@ -9,4 +9,6 @@
 4. 设置你要提交到的地址以及密码，使用命令 git config --global user.email "xxxx"     
 git config --global user.name "xxxx"
 5. 提交文件，使用命令git commit -m "这里写修改的备注"
-6. 
+6. 关联远程仓库，origin后跟的是远程仓库的别名    
+git remote add origin https://github.com/shareWithU/guojiaotong.git
+7. git push -u origin master
